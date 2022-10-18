@@ -7,7 +7,6 @@
 Console.Clear();
 int time = 0;
 bool wokeUpTime = false;
-string playAgain = "yes";
 Console.WriteLine("Welcome to Challenge 3 Asking Questions");
 Console.WriteLine("What is your name?");
 string userName = Console.ReadLine();
@@ -35,12 +34,18 @@ while (!wokeUpTime)
 
     Console.WriteLine("Was it Am or Pm?");
     string amOrpm = Console.ReadLine().ToLower();
-    if (amOrpm == "am" || amOrpm == "pm")
+    if (amOrpm == "am")
     {
-        Console.WriteLine($"Hello {userName} you woke up at {time}{amOrpm}");
+        Console.WriteLine($"Hello {userName} you woke up at {time}am");
+    }
+
+    else if (amOrpm == "pm")
+    {
+        Console.WriteLine($"Hello {userName} you woke up at {time}pm");
     }
     else
     {
-        Console.WriteLine("Not a valid pick type in Am or Pm");
+        Console.WriteLine("Not a valid pick please enter in am or pm");
+        amOrpm = Console.ReadLine().ToLower();
     }
 }
