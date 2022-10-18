@@ -26,7 +26,7 @@ while (playAgain == "yes")
 
     while (!wokeUpTime)
     {
-        Console.WriteLine("What time did you wake up today?");
+        Console.WriteLine("What time in the morning did you wake up?");
         wokeUpTime = Int32.TryParse(Console.ReadLine(), out time);
         if (wokeUpTime)
         {
@@ -39,6 +39,7 @@ while (playAgain == "yes")
 
 
     }
+    Console.WriteLine($"Hello {userName} you woke up at {time} AM");
 
    
 
@@ -62,7 +63,7 @@ while (playAgain == "yes")
         }
         else
         {
-            Console.WriteLine("Invalid Input");
+            Console.WriteLine("Invalid input type in Yes or No");
             playAgainInput = "invalid";
         }
 
