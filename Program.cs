@@ -33,7 +33,9 @@ while (!wokeUpTime)
     }
 
     Console.WriteLine("Was it Am or Pm?");
-    string amOrpm = Console.ReadLine().ToLower();
+    string amOrpm = "am";
+
+    amOrpm = Console.ReadLine().ToLower();
     if (amOrpm == "am")
     {
         Console.WriteLine($"Hello {userName} you woke up at {time}am");
@@ -42,10 +44,5 @@ while (!wokeUpTime)
     else if (amOrpm == "pm")
     {
         Console.WriteLine($"Hello {userName} you woke up at {time}pm");
-    }
-    else
-    {
-        Console.WriteLine("Not a valid pick please enter in am or pm");
-        amOrpm = Console.ReadLine().ToLower();
     }
 }
