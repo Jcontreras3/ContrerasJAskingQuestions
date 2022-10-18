@@ -1,0 +1,15 @@
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\bin\Debug\net6.0\JContrerasAskingQuestions.exe
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\bin\Debug\net6.0\JContrerasAskingQuestions.deps.json
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\bin\Debug\net6.0\JContrerasAskingQuestions.runtimeconfig.json
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\bin\Debug\net6.0\JContrerasAskingQuestions.dll
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\bin\Debug\net6.0\ref\JContrerasAskingQuestions.dll
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\bin\Debug\net6.0\JContrerasAskingQuestions.pdb
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\obj\Debug\net6.0\JContrerasAskingQuestions.csproj.AssemblyReference.cache
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\obj\Debug\net6.0\JContrerasAskingQuestions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\obj\Debug\net6.0\JContrerasAskingQuestions.AssemblyInfoInputs.cache
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\obj\Debug\net6.0\JContrerasAskingQuestions.AssemblyInfo.cs
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\obj\Debug\net6.0\JContrerasAskingQuestions.csproj.CoreCompileInputs.cache
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\obj\Debug\net6.0\JContrerasAskingQuestions.dll
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\obj\Debug\net6.0\ref\JContrerasAskingQuestions.dll
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\obj\Debug\net6.0\JContrerasAskingQuestions.pdb
+C:\Users\Jovan\GitHub\JContrerasAskingQuestions\obj\Debug\net6.0\JContrerasAskingQuestions.genruntimeconfig.cache
