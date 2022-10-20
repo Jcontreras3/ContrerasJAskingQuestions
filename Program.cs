@@ -8,17 +8,19 @@ while (playAgain == "yes")
 
     int time = 0;
     bool wokeUpTime = false;
-
     Console.WriteLine("Welcome to Challenge 3 Asking Questions");
     Console.WriteLine("What is your name?");
-    string userName = Console.ReadLine();
-    while (string.IsNullOrEmpty(userName))
+    string userName;
+    userName = Console.ReadLine();
+    if (userName == "")
     {
-
-        Console.WriteLine("No name was entered");
+        Console.WriteLine("You didn't enter anything please type in your name");
+         userName = Console.ReadLine();
     }
-
-    Console.WriteLine($"Name: {userName}");
+    else
+    {
+        Console.WriteLine($"Name: {userName}");
+    }
 
 
     while (!wokeUpTime)
