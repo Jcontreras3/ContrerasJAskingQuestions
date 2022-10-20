@@ -1,12 +1,13 @@
 ﻿
 
 Console.Clear();
+
 string playAgain = "yes";
-int time = 0;
-bool wokeUpTime = false;
 while (playAgain == "yes")
 {
 
+    int time = 0;
+    bool wokeUpTime = false;
 
     Console.WriteLine("Welcome to Challenge 3 Asking Questions");
     Console.WriteLine("What is your name?");
@@ -37,7 +38,7 @@ while (playAgain == "yes")
     }
     Console.WriteLine($"Hello {userName} you woke up at {time} AM");
 
-   
+
 
     Console.WriteLine("Would you like to try again? type in Yes to retry or No to quit");
 
